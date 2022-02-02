@@ -11,4 +11,9 @@ Currently it's configured for LAMMPS, but I'm working with a DFT version as well
 
 Structures are generated with the genetic algorithm which train a growing neural network.
 
+./INIT will initialize the proceedure
+./RUN.sh will run the global loops
+GRAMS/ contains all programs
+  including phase.py and volume.py for 3d plots
+
 More to come.
