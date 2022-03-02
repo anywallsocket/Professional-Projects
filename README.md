@@ -25,3 +25,22 @@ Here below we see fixed 13 atom AuPd cluster trained on GAs and NNs to find adso
 The ideal sites end up forming a dodecahedron -- avoiding the inner 13 atom icosahedron verticies. 
   
 ![](dodec.gif)
+
+Another example below shows variable cluster dynamics (no adsorption).
+The training results are shown over 8 global iterations.
+  We do not expect a monotonic decrease, because the algorithm is exploring a changing phase space.
+  
+![](finalloss.png)
+
+Here we see the energy of each evaluated generation for 13 atom variable stoichiometry AuPd clusters.
+  Mapped as well by its associated image.
+  
+![](13path.gif)
+
+Here the same system for the same 8 iterations, except a heatmap has been overlayed and more images seen.
+Note that the heatmap is relative to the range of each iteration, and so the scale itself changes.
+  
+![](13grid.gif)
+  
+Something to note is that it only takes 8 iterations to find the absolute global minima.
+This is seen as the Au12Pd cluster, with Pd at the core of an Au icosahedron.
