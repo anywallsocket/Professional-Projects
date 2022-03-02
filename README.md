@@ -21,6 +21,7 @@ whilst avoiding all the heavy computational costs (e.g., DFT) of traditional cal
 GRAMS/ contains all programs
 <t>including phase.py and volume.py for 3d plots
 
-More to come.
-
+Here below we see fixed 13 atom AuPd cluster trained on GAs and NNs to find adsorption sites for C2.
+The ideal sites end up forming a dodecahedron -- avoiding the inner 13 atom icosahedron.
+  
 ![](dodec.gif)
