@@ -22,3 +22,5 @@ GRAMS/ contains all programs
 <t>including phase.py and volume.py for 3d plots
 
 More to come.
+
+![](dodec.gif)
