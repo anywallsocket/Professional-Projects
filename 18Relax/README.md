@@ -2,16 +2,33 @@ Here we showcase how the Active Learning algorithm relaxes 18 atom AuPd clusters
 That is, starting from essentially arbitrary positions within the unit cell, the clusters eventually find their global minima.
 
 iteration = 1
-![<](ga1.gif)
+![image alt <](ga1.gif)
 
 iteration = 2
-![>](ga2.gif#right){: style="float:right"}
+![image alt >](ga2.gif#right)
 
 iteration = 3
-![<](ga3.gif#left){: style="float:left"}
+![image alt <](ga3.gif#left)
 
 iteration = 4
-![>](ga4.gif#right){: style="float:right"}
+![image alt >](ga4.gif#right)
 
 iteration = 5
-![><](ga5.gif#center){: style="float:center"}
+![image alt ><](ga5.gif#center)
+
+
+img[alt$=">"] {
+  float: right;
+}
+
+img[alt$="<"] {
+  float: left;
+}
+
+img[alt$="><"] {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+  float: none!important;
+}
