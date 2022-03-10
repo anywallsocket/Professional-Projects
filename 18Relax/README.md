@@ -30,4 +30,6 @@ Iteration 5
 
 The general trend is that eventually the center gets occupied most often, with a shell around it and a gap between.
 This is because whereas initially intermediate locations were likely, since atoms were distributed,
-at later iterations the cluster is packed, and layering becomes necessary.
+at later iterations the cluster is packed, and layering becomes necessary. 
+One might expect to see higer density in the second later as well as the core, 
+but the core probability is relatively too high for the secondary shell to compare (color thresholds are adjustable).
