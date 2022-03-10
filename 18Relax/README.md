@@ -13,5 +13,5 @@ Iteration 3, 4
 
 Iteration 5
 <p align="center">
-  <img width="100" height="250" src="ga5.gif">
+  <img width="250" height="250" src="ga5.gif">
 </p>
