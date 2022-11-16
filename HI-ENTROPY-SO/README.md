@@ -4,10 +4,10 @@ This is based on the idea that bi-metals are sufficent for building a neural-net
 
 Below we see the automatic and un-biased convergence of energy and force MAEs
 
-<p align="center">
+<p align="left">
   <img width="400" height="400" src="MAE_E.png">
 </p>
-<p align="center">
+<p align="left">
   <img width="400" height="400" src="MAE_F.png">
 </p>
 
