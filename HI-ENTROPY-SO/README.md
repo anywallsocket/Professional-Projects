@@ -11,5 +11,5 @@ Below we see the automatic and un-biased convergence of energy and force MAEs
   <img width="400" height="400" src="MAE_F.png">
 </p>
 
-This program also implements genetic inheritance, 
+This program also implements genetic inheritance, <br>
 meaning structures generated in iteration i>0 are initialized by structures generated in iteration i-1.
