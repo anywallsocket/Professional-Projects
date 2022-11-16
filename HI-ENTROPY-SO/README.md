@@ -15,4 +15,4 @@ This program also implements genetic inheritance, <br>
 meaning structures generated in iteration i>0 are initialized by structures generated in iteration i-1.
 
 Such an algorithm serves as a template, be modified to explore higher entropy configurations if need be. <br>
-Abd it is easily extended from clusters to substrates, adsorption sites etc.
+And it is easily extended from clusters to substrates, adsorption sites etc.
