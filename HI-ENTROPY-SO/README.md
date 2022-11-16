@@ -3,8 +3,11 @@ The optimizer is intended to use bi-metals, whereas high-entropy applications wo
 This is based on the idea that bi-metals are sufficent for building a neural-network capable of predicting higher combinations.
 
 Below we see the automatic and un-biased convergence of energy and force MAEs
-![](MAE_E.png width="200" height="400")
-![](MAE_F.png)
 
-
+<p align="center">
+  <img width="400" height="400" src="MAE_E.png">
+</p>
+<p align="center">
+  <img width="400" height="400" src="MAE_F.png">
+</p>
 
