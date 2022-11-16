@@ -13,3 +13,6 @@ Below we see the automatic and un-biased convergence of energy and force MAEs
 
 This program also implements genetic inheritance, <br>
 meaning structures generated in iteration i>0 are initialized by structures generated in iteration i-1.
+
+Such an algorithm serves as a template, to be modified for clusters, substrates, adsorption sites etc.
+And can be modified to explore higher entropy configurations as well.
