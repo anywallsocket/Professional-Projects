@@ -10,26 +10,38 @@ The genetic algorithm is encoded with atomic simulations environment, as is the 
 The meta loop is the more familiar outer or 'global' iteration loop, which improves the NN and explores the configuration space simultanesouly. 
 The mesa loop is the inner loop which iterates over the number of elements per cluster (entropy loop).
 
-![](MAE_E.png)
+<p align="center">
+  <img width="400" height="400" src="MAE_E.png">
+</p>
 
-![](MAE_F.png)
+<p align="center">
+  <img width="400" height="400" src="MAE_F.png">
+</p>
 
 ### Additionally we showcase the grid and path plots for configuration space visualizaton as they evolve per Meta loop.
 Note here that clusters are not exactly to relative scale.
 
 
-![](path1.png)
-![](path5.png)
+<p align="center">
+  <img width="400" height="400" src="path1.png">
+</p><p align="center">
+  <img width="400" height="400" src="path5.png">
+</p>
 
-![](grid1.png)
-![](grid5.png)
-
+<p align="center">
+  <img width="400" height="400" src="grid1.png">
+</p><p align="center">
+  <img width="400" height="400" src="grid5.png">
+</p>
 
 ### Finally we show how these unbiased filtration and evolution processes can result in natural core shell segregations.
 That is, certain bonds are stronger than others, leading to eventual excluding of weak bonds, and geometric partitioning of elements.
 
-![](NN-1.png)
-![](NN-5.png)
+<p align="center">
+  <img width="400" height="400" src="NN-1.png">
+</p><p align="center">
+  <img width="400" height="400" src="NN-5.png">
+</p>
 
 
 ### All code written by anywallsocket@gmail.com
