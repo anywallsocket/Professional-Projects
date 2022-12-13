@@ -31,4 +31,4 @@ That is, certain bonds are stronger than others, leading to eventual excluding o
 ![](NN-5.png)
 
 
-##
+# All code written by anywallsocket@gmail.com
