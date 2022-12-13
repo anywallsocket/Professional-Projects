@@ -15,6 +15,7 @@ The mesa loop is the inner loop which iterates over the number of elements per c
 ![](MAE_F.png)
 
 ### Additionally we showcase the grid and path plots for configuration space visualizaton as they evolve per Meta loop.
+Note here that clusters are not exactly to relative scale.
 
 
 ![](path1.png)
@@ -31,4 +32,4 @@ That is, certain bonds are stronger than others, leading to eventual excluding o
 ![](NN-5.png)
 
 
-# All code written by anywallsocket@gmail.com
+### All code written by anywallsocket@gmail.com
