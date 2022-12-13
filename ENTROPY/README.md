@@ -11,11 +11,11 @@ The meta loop is the more familiar outer or 'global' iteration loop, which impro
 The mesa loop is the inner loop which iterates over the number of elements per cluster (entropy loop).
 
 <p align="center">
-  <img width="400" height="400" src="MAE_E.png">
+  <img width="600" height="500" src="MAE_E.png">
 </p>
 
 <p align="center">
-  <img width="400" height="400" src="MAE_F.png">
+  <img width="600" height="500" src="MAE_F.png">
 </p>
 
 ### Additionally we showcase the grid and path plots for configuration space visualizaton as they evolve per Meta loop.
@@ -23,24 +23,24 @@ Note here that clusters are not exactly to relative scale.
 
 
 <p align="center">
-  <img width="400" height="400" src="path1.png">
+  <img width="600" height="500" src="path1.png">
 </p><p align="center">
-  <img width="400" height="400" src="path5.png">
+  <img width="600" height="500" src="path5.png">
 </p>
 
 <p align="center">
-  <img width="400" height="400" src="grid1.png">
+  <img width="600" height="500" src="grid1.png">
 </p><p align="center">
-  <img width="400" height="400" src="grid5.png">
+  <img width="600" height="500" src="grid5.png">
 </p>
 
 ### Finally we show how these unbiased filtration and evolution processes can result in natural core shell segregations.
 That is, certain bonds are stronger than others, leading to eventual excluding of weak bonds, and geometric partitioning of elements.
 
 <p align="center">
-  <img width="400" height="400" src="NN-1.png">
+  <img width="600" height="500" src="NN-1.png">
 </p><p align="center">
-  <img width="400" height="400" src="NN-5.png">
+  <img width="600" height="500" src="NN-5.png">
 </p>
 
 
