@@ -27,13 +27,6 @@ The ideal sites end up forming a dodecahedron -- avoiding the inner 13 atom icos
 ![](dodec.gif)
 
 Another example below shows variable cluster dynamics (no adsorption).
-The training results are shown over 8 global iterations.
-  We do not expect a monotonic decrease, because the algorithm is exploring a changing phase space.
-  
-![](finalloss.png)
-
-Here we see the energy of each evaluated generation for 13 atom variable stoichiometry AuPd clusters.
-  Mapped as well by its associated image (sometimes they appear larger by artifact).
   
 ![](13path.gif)
 
