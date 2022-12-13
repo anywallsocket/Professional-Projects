@@ -18,8 +18,7 @@ The mesa loop is the inner loop which iterates over the number of elements per c
   <img width="600" height="550" src="MAE_F.png">
 </p>
 
-### Additionally we showcase the grid and path plots for configuration space visualizaton as they evolve per Meta loop.
-#### The rest of the plots are for the meta = 1 iteration, after the initial meta = 0 configurations have been explored.
+### Additionally we showcase the grid and path plots for configuration space visualizaton as they evolve per Meta loop. The rest of the plots are for the meta = 1 iteration, after the initial meta = 0 configurations have been explored.
 Note here that clusters are not exactly to relative scale.
 
 
