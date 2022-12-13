@@ -26,10 +26,6 @@ The ideal sites end up forming a dodecahedron -- avoiding the inner 13 atom icos
   
 ![](dodec.gif)
 
-Another example below shows variable cluster dynamics (no adsorption).
-  
-![](13path.gif)
-
 Here the same system for the same 8 iterations, except a heatmap has been overlayed and more images seen.
   Note that the heatmap is relative to the range of each iteration, and so the scale itself changes.
   
