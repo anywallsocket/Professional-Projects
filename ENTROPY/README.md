@@ -43,7 +43,7 @@ That is, certain bonds are stronger than others, leading to eventual excluding o
   <img width="600" height="550" src="NN-5.png">
 </p>
 
-### We see Pt take the center with the rest trailing, followed by an efficency plot.
+### We see Pt take the center with the rest trailing, followed by efficency plots.
 
 <p align="center">
   <img width="600" height="550" src="sizes.png">
