@@ -43,5 +43,15 @@ That is, certain bonds are stronger than others, leading to eventual excluding o
   <img width="600" height="550" src="NN-5.png">
 </p>
 
+### We see Pt take the center with the rest trailing, followed by an efficency plot.
+
+<p align="center">
+  <img width="600" height="550" src="sizes.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="order.png">
+</p>
+
 
 ### All code written by anywallsocket@gmail.com
