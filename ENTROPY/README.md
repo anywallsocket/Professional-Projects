@@ -56,7 +56,7 @@ That is, certain bonds are stronger than others, leading to eventual excluding o
 ### The technique can be applied to map configuration spaces for adsorption, slab, or bulk.
 
 <p align="center">
-  <img width="600" height="550" src="13.gif">
+  <img width="500" height="500" src="13.gif">
 </p>
 
 
