@@ -53,5 +53,11 @@ That is, certain bonds are stronger than others, leading to eventual excluding o
   <img width="600" height="550" src="order.png">
 </p>
 
+### The technique can be applied to map configuration spaces for adsorption, slab, or bulk.
+
+<p align="center">
+  <img width="600" height="550" src="13.gif">
+</p>
+
 
 ### All code written by anywallsocket@gmail.com
