@@ -29,9 +29,9 @@ Note here that clusters are not exactly to relative scale.
 </p>
 
 <p align="center">
-  <img width="600" height="525" src="grid1.png">
+  <img width="600" height="525" src="PICS/grid1.png">
 </p><p align="center">
-  <img width="600" height="525" src="grid5.png">
+  <img width="600" height="525" src="PICS/grid5.png">
 </p>
 
 ### Finally we show how these unbiased filtration and evolution processes can result in natural core shell segregations.
