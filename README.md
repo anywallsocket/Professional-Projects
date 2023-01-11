@@ -1,4 +1,3 @@
-## Fancy
 # Genetic Algorithm coupled with Neural Network
 
 This Active Learning algorithm is built on Atomic Simulations Environment (ASE)
