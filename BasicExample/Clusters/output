@@ -1,0 +1,655 @@
+
+>>ITERATION 1 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 5
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2381 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 5
+ MAE = 4.712564
+ Comparing Relaxed Energies
+ 2381 poor fits,
+ 0 good fits,
+ and 0 skipped
+ Working with 2381 images
+ 2221 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 1 complete
+
+>>ITERATION 2 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2400 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 10
+ MAE = 0.668144
+ Comparing Relaxed Energies
+ 1308 poor fits,
+ 792 good fits,
+ and 300 skipped
+ Working with 6576 images
+ 1578 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 2 complete
+
+>>ITERATION 3 starting
+>[RUNNING torchGA.py]
+ Relaxing 2381 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 5
+ MAE = 4.712564
+ Comparing Relaxed Energies
+ 2381 poor fits,
+ 0 good fits,
+ and 0 skipped
+ Working with 2381 images
+ 2221 images written to train.db
+ Relaxing 2381 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 5
+ Relaxing 2381 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 5
+ MAE = 4.712564
+ Comparing Relaxed Energies
+ 2381 poor fits,
+ 0 good fits,
+ and 0 skipped
+ Working with 2381 images
+ 2221 images written to train.db
+ 
+Training on new data
+
+
+>>ITERATION 2 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 10
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2396 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 10
+ MAE = 0.49648
+ Comparing Relaxed Energies
+ 1236 poor fits,
+ 866 good fits,
+ and 294 skipped
+ Working with 6802 images
+ 5761 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 2 complete
+
+>>ITERATION 3 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 15
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2389 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 15
+ MAE = 0.360786
+ Comparing Relaxed Energies
+ 1172 poor fits,
+ 908 good fits,
+ and 309 skipped
+ Working with 11952 images
+ 9049 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 3 complete
+
+>>ITERATION 4 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 20
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2379 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 20
+ MAE = 0.349072
+ Comparing Relaxed Energies
+ 1020 poor fits,
+ 1022 good fits,
+ and 337 skipped
+ Working with 15320 images
+ 10456 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+ 
+Training on new data
+
+
+>>ITERATION 5 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 25
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2378 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 25
+ MAE = 0.459526
+ Comparing Relaxed Energies
+ 993 poor fits,
+ 1051 good fits,
+ and 334 skipped
+ Working with 19621 images
+ 11939 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 5 complete
+
+>>ITERATION 6 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 30
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2363 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 30
+ MAE = 0.606278
+ Comparing Relaxed Energies
+ 777 poor fits,
+ 1183 good fits,
+ and 403 skipped
+ Working with 23184 images
+ 12338 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+ 
+Training on new data
+
+
+>>ITERATION 7 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 35
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2349 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 35
+ MAE = 0.450943
+ Comparing Relaxed Energies
+ 731 poor fits,
+ 1236 good fits,
+ and 382 skipped
+ Working with 28822 images
+ 13151 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 7 complete
+
+>>ITERATION 8 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 40
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2329 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 40
+ MAE = 0.429868
+ Comparing Relaxed Energies
+ 688 poor fits,
+ 1262 good fits,
+ and 379 skipped
+ Working with 32064 images
+ 13512 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 8 complete
+
+>>ITERATION 9 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 45
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2353 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 45
+ MAE = 0.633635
+ Comparing Relaxed Energies
+ 674 poor fits,
+ 1267 good fits,
+ and 412 skipped
+ Working with 36427 images
+ 13561 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 9 complete
+
+>>ITERATION 10 starting
+>[RUNNING torchGA.py]
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+ Initializing Candidates
+ Evolving Candidates:
+ fmin = 0.0001  steps = 50
+>[DONE]
+>[RUNNING validate.py]
+ Relaxing 2328 images according to LAMMPS (true) and NN (pred)
+ fmin = 0.0001 steps = 50
+ MAE = 0.449549
+ Comparing Relaxed Energies
+ 684 poor fits,
+ 1277 good fits,
+ and 367 skipped
+ Working with 39776 images
+ 13819 images written to train.db
+>[DONE]
+>[RUNNING train.py]
+ 
+Training on new data
+
+>[DONE]
+>>ITERATION 10 complete
