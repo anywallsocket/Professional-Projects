@@ -60,4 +60,4 @@ That is, certain bonds are stronger than others, leading to eventual excluding o
 </p>
 
 
-### All code written by anywallsocket@gmail.com
+### All code written by anywallsocket@github.com
