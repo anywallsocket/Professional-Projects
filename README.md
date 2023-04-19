@@ -1,7 +1,8 @@
 # Genetic Algorithm coupled with Neural Network
 
 This Active Learning algorithm is built on Atomic Simulations Environment (ASE)
-as well as the Torch interpreter for Atomistic Machine-Learning Package (AMP).
+as well as the Torch interpreter for Atomistic Machine-Learning Package (AMP),
+and more recently SchNetPack.
 
 The point is materials discovery, and works with nanoclusters as well as adsorption sites.
 
