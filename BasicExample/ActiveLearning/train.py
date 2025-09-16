@@ -267,6 +267,10 @@ for i in range(I+1):
 		except: pass #print(j, end=',')
 print('Images Found:', len(images))
 
+## Here one can filter which images to train on
+## based on previous NN's preformance
+## For simplicity, we simply train on all images
+
 dm = myModule(directory, images, batch_size)
 task = myModel(learning_rate, features, interactions, gaussians)
 trainer = myTrainer(directory, epochs)
