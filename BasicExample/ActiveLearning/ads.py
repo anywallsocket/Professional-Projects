@@ -36,10 +36,11 @@ EMT_energies = {'H' : 3.21, 'H2' : 1.1588634908331565, 'N' : 5.1, 'N2' : 0.54876
 
 def adsE(image):
 	
-	clust = image[:N]
-	clust.calc = calc
-	image.calc = calc
-	TE = image.get_total_energy()
+	test = image.copy()
+	clust = test[:N]
+	clust.calc = EMT()
+	test.calc = EMT()
+	TE = test.get_total_energy()
 	CE = clust.get_total_energy()
 	AdsE = TE - CE - EMT_energies[names[J%5]]
 	return AdsE
@@ -116,7 +117,8 @@ pop_size = 50
 
 if N<20: box = 6
 elif N<30: box = 7
-elif box<40: box = 8
+elif N<40: box = 8
+else: box = 9
 dmin = 2.2
 dmax = box*np.sqrt(3)
 
