@@ -14,3 +14,54 @@ The genetic algorithm is encoded with atomic simulations environment, as is the 
 <p align="center">
   <img width="600" height="550" src="PICS/Fmae.png">
 </p>
+
+### And here is an in-depth analysis into the final iteration's preformance.
+
+<p align="center">
+  <img width="600" height="550" src="PICS/10-energy.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/10-force.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/d-1-energy.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/d-2-energy.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/histo-energy.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/histo-force.png">
+</p>
+
+
+### Finally we showcase some analysis into adsorption energy trends for each adsorbate.
+
+
+<p align="center">
+  <img width="600" height="550" src="PICS/H-top.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/H2-top.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/N-top.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/N2-top.png">
+</p>
+
+<p align="center">
+  <img width="600" height="550" src="PICS/NH3-top.png">
+</p>
+
