@@ -2,7 +2,8 @@ Final Iteration's DFT values.
 
 Parsing Example:
 
-```from ase.io import read
+```
+from ase.io import read
 
 test = read('../../TIME/DFT-iteration_10.extxyz', index='0')
 test.info
