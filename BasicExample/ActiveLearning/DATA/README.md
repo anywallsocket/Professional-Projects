@@ -14,6 +14,7 @@ test.info
  'adsorbate': 'H',
  'adsorbate_site': 'top',
  'cluster_size': np.int64(10),
+ 'total_energy': np.float64(-324.613828),
  'cluster_energy': np.float64(-320.4773421),
  'adsorbate_energy': np.float64(-1.07452648),
  'adsorption_energy': np.float64(-3.061959420000025)}
@@ -33,3 +34,7 @@ test.arrays
         [ 9.85156,  8.34328,  9.19847],
         [ 8.54233, 10.4529 , 10.15278]])}
 ```
+
+Distance units: Ang
+Energy units: eV
+Forces units: eV/Ang
