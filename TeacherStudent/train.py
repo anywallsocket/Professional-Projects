@@ -28,10 +28,13 @@ for i in tqdm(range(GAs)):
 		for g in ga:
 			new = g.copy()
 			new.calc = calc
-			new.info['REF_energy'] = new.get_total_energy()
-			new.arrays['REF_forces'] = new.get_forces()
-			new.calc = None
-			images.append(new)
+			E = new.get_total_energy()
+			F = new.get_forces()
+			if E < 0 and np.max(np.abs(F)) < 25:
+				new.calc = None
+				new.info['REF_energy'] = E
+				new.arrays['REF_forces'] = F
+				images.append(new)
 	except: print('failed to read', I, 'ga-'+str(i)+'.db')
 print('New Found:', len(images))
 if I>0:
@@ -78,9 +81,6 @@ config_data = {
 	"batch_size": 4,
 	"max_num_epochs": 20,
 	"swa": False,
-	#"start_swa": 40,
-	#"swa_energy_weight": 1000,
-	#"swa_forces_weight": 100,
 	"ema": True,
 	"ema_decay": 0.99,
 	"seed": 123,
