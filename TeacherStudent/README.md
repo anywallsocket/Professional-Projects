@@ -30,7 +30,7 @@ Improvements to foundational model inference times are summarized below:
 #Wall time: 44 s
 ```
 
-Roughly speaking we gain 3x speed, 2x from float reduction, and 1x from minimizing model size.
+Roughly speaking we gain 3x speed: 2x from float reduction, and 1x from minimizing model size.
 
 ### Running 10 global iterations for the base clusters
 <p align="center">
