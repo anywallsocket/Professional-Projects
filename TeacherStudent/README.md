@@ -9,7 +9,7 @@ Roughly speaking, each loop takes
 > 10m gpu
 > 1 hour cpu
 
-Improvements to foundational model are summarized below:
+Improvements to foundational model inference times are summarized below:
 
 ```
 #550 images, sizes 10-20 atoms
@@ -29,6 +29,8 @@ Improvements to foundational model are summarized below:
 #CPU times: user 2min 38s, sys: 16.3 s, total: 2min 54s
 #Wall time: 44 s
 ```
+
+Roughly speaking we gain 3x speed, 2x from float reduction, and 1x from minimizing model size.
 
 ### Running 10 global iterations for the base clusters
 <p align="center">
