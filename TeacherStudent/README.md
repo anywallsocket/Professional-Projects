@@ -43,4 +43,20 @@ Roughly speaking we gain 3x speed: 1.67x from float reduction, and 1.2x from min
   <img width="600" height="550" src="adsorbate-MAEs.png">
 </p>
 
-### all code written by anywallsocket
+### We also show some analysis for the final iteration 10
+<p align="center">
+  <img width="600" height="550" src="10/plot-train.png">
+</p>
+
+<table>
+  <tr>
+    <td><img src="10/train-energy.png" width="600" height="550"></td>
+    <td><img src="10/train-forces.png" width="600" height="550"></td>
+  </tr>
+  <tr>
+    <td><img src="10/valid-energy.png" width="600" height="550"></td>
+    <td><img src="10/valid-forces.png" width="600" height="550"></td>
+  </tr>
+</table>
+
+all code written by anywallsocket
