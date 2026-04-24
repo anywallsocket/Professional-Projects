@@ -51,11 +51,11 @@ Roughly speaking we gain 3x speed: 1.67x from float reduction, and 1.2x from min
 <table>
   <tr>
     <td><img src="10/train-energy.png" width="600" height="550"></td>
-    <td><img src="10/train-forces.png" width="600" height="550"></td>
+    <td><img src="10/train-force.png" width="600" height="550"></td>
   </tr>
   <tr>
     <td><img src="10/valid-energy.png" width="600" height="550"></td>
-    <td><img src="10/valid-forces.png" width="600" height="550"></td>
+    <td><img src="10/valid-force.png" width="600" height="550"></td>
   </tr>
 </table>
 
