@@ -45,7 +45,7 @@ Roughly speaking we gain 3x speed: 1.67x from float reduction, and 1.2x from min
 
 ### We also show some analysis for the final iteration 10
 <p align="center">
-  <img width="800" height="550" src="10/plot-train.png">
+  <img width="1000" height="550" src="10/plot-train.png">
 </p>
 
 <table>
