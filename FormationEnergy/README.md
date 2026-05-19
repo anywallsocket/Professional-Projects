@@ -6,6 +6,14 @@
 
 With this model we can explore the vast complexity space available to clusters of 50-150 atoms, with 2-9 elements per cluster. In total we investigate over 80,000 configurations, from which to extract statistical patterns useful to experimental material science.
 
+Our principle metric of interest for evaluation is *Formation Energy*, calculated as
+
+$$
+E_{form} = \frac{1}{N}(E_{cluster} - E_{mixed-bulk}) = EPA - \Sum{\mu_i z_i}
+$$
+
+Where EPA is the energy per atom, where N is the atoms per cluster, and the sum adds up the bulk reference energy per atom μ, scaled by its compositional fraction per cluster z.
+
 <p align="center">
   <img width="500" height="500" src="Figure_0.png">
 </p>
