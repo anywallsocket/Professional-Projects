@@ -33,7 +33,7 @@ Figure 2. Isolated top 1% (roughly 1 00 clusters per entropy level) composition 
 Strong agreements, and the preference for Mg is seen to manifest at low entropy levels.
 
 <p align="center">
-  <img width="700" height="600" src="Figure_3.png">
+  <img width="600" height="700" src="Figure_3.png">
 </p>
 
 Figure 3. Comparison between average compositions for randomized clusters (top) and genetic
