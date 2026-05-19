@@ -9,7 +9,7 @@ With this model we can explore the vast complexity space available to clusters o
 Our principle metric of interest for evaluation is *Formation Energy*, calculated as
 
 $$
-E_{form} = \frac{1}{N}(E_{cluster} - E_{mixed-bulk}) = EPA - \Sum{\mu_i z_i}
+E_{form} = \frac{1}{N}(E_{cluster} - E_{mixed-bulk}) = EPA - \sum{\mu_i z_i}
 $$
 
 Where EPA is the energy per atom, where N is the atoms per cluster, and the sum adds up the bulk reference energy per atom μ, scaled by its compositional fraction per cluster z.
