@@ -2,6 +2,10 @@
 
 #### Elements: Al, Co, Cr, Cu, Fe, Mg, Mn, Ni, W
 
+[MACE] (https://github.com/ACEsuit/mace/tree/100a29149d90a5945eddec1f0940bd88a6e3b363) foundational model was fine-tuned at the $r^2SCAN$ level useing Density Functional Theory (DFT).
+
+With this model we can explore the vast complexity space available to clusters of 50-150 atoms, with 2-9 elements per cluster. In total we investigate over 80,000 configurations, from which to extract statistical patterns useful to experimental material science.
+
 <p align="center">
   <img width="500" height="500" src="Figure_0.png">
 </p>
