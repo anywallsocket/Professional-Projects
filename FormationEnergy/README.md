@@ -15,7 +15,7 @@ $$
 Where EPA is the energy per atom, where N is the atoms per cluster, and the sum adds up the bulk reference energy per atom μ, scaled by its compositional fraction per cluster z.
 
 <p align="center">
-  <img width="550" height="500" src="Figure_0.png">
+  <img width="450" height="500" src="Figure_0.png">
 </p>
 
 Figure 0. Bulk lattice references for our elements under consideration.
