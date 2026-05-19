@@ -33,7 +33,7 @@ Figure 2. Isolated top 1% (roughly 1 00 clusters per entropy level) composition 
 Strong agreements, and the preference for Mg is seen to manifest at low entropy levels.
 
 <p align="center">
-  <img width="700" height="700" src="Figure_3.png">
+  <img width="700" height="600" src="Figure_3.png">
 </p>
 
 Figure 3. Comparison between average compositions for randomized clusters (top) and genetic
@@ -48,7 +48,7 @@ Figure 4. Relative parity plot for formation predictions against DFT values. Not
 images are not necessarily totally relaxed, and hence we have some odd values.
 
 <p align="center">
-  <img width="800" height="800" src="Figure_5.png">
+  <img width="900" height="900" src="Figure_5.png">
 </p>
 
 Figure 5. Core-shell analysis, revealing the statistical preferences for the top 10% for each
