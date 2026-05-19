@@ -3,13 +3,13 @@
 #### Elements: Al, Co, Cr, Cu, Fe, Mg, Mn, Ni, W
 
 <p align="center">
-  <img width="600" height="550" src="Figure_0.png">
+  <img width="500" height="500" src="Figure_0.png">
 </p>
 
 Figure 0. Bulk lattice references for our elements under consideration.
 
 <p align="center">
-  <img width="600" height="550" src="Table_1.png">
+  <img width="500" height="500" src="Table_1.png">
 </p>
 
 Table 1. Model errors relative to our own DFT reference values. MP is Materials Project values,
@@ -17,7 +17,7 @@ R2 is the r2SCAN foundational model values, and FT is our fine-tuned model. Lowe
 errors are highlighted.
 
 <p align="center">
-  <img width="600" height="550" src="Figure_1.png">
+  <img width="500" height="500" src="Figure_1.png">
 </p>
 
 Figure 1. Latest Fine-tuned model (FT), as compared with Base foundational model at the
@@ -25,7 +25,7 @@ r2SCAN level (R2). Hierarchy shows Al > (Mg, Mn) > Ni > Cu > Co > Cr > Fe > W, m
 previous.
 
 <p align="center">
-  <img width="600" height="550" src="Figure_2.png">
+  <img width="500" height="500" src="Figure_2.png">
 </p>
 
 
@@ -33,7 +33,7 @@ Figure 2. Isolated top 1% (roughly 1 00 clusters per entropy level) composition 
 Strong agreements, and the preference for Mg is seen to manifest at low entropy levels.
 
 <p align="center">
-  <img width="600" height="550" src="Figure_3.png">
+  <img width="500" height="500" src="Figure_3.png">
 </p>
 
 Figure 3. Comparison between average compositions for randomized clusters (top) and genetic
@@ -41,14 +41,14 @@ algorithm, at various top percentages to reveal expected correspondence. Hierarc
 Al > Ni > Mn > Mg > Cu > (Co, Cr, Fe, W).
 
 <p align="center">
-  <img width="600" height="550" src="Figure_4.png">
+  <img width="500" height="500" src="Figure_4.png">
 </p>
 
 Figure 4. Relative parity plot for formation predictions against DFT values. Note that DFT
 images are not necessarily totally relaxed, and hence we have some odd values.
 
 <p align="center">
-  <img width="600" height="550" src="Figure_5.png">
+  <img width="500" height="500" src="Figure_5.png">
 </p>
 
 Figure 5. Core-shell analysis, revealing the statistical preferences for the top 10% for each
