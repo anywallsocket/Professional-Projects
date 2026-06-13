@@ -37,7 +37,7 @@ r2SCAN level (R2). Hierarchy shows Al > (Mg, Mn) > Ni > Cu > Co > Cr > Fe > W, m
 previous.
 
 <p align="center">
-  <img width="700" height="700" src="Figure_2.png">
+  <img width="900" height="900" src="Figure_2.png">
 </p>
 
 
