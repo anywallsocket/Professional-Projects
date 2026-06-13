@@ -2,7 +2,7 @@
 #### This time modified using a "Teacher-Student" (knowledge distillation) training motif
 #### Specifically we use the [MACE](https://github.com/ACEsuit/mace) foundational model as the "teacher"
 #### And use our own MACE model, trained to capture this specific state space, as the "student"
-The genetic algorithm is encoded with atomic simulations environment, as is the database archetecture [https://gitlab.com/ase]
+The genetic algorithm is encoded with atomic simulations environment [ASE](https://gitlab.com/ase), as is the database archetecture.
 
 Each global iteration increases the size and sophistocation of the Student network
 Roughly speaking, each loop takes
