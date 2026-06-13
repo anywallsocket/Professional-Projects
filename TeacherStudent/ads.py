@@ -108,12 +108,12 @@ else: box = 9
 dmin = 2.2
 dmax = box*np.sqrt(3)
 
-calc0 = MACECalculator(model_paths='r2scan.model', default_dtype='float64')
-calc = MACECalculator(model_paths='NNs/'+str(I-1)+'/'+str(I-1)+'_compiled.model', default_dtype='float32')
+Teacher = MACECalculator(model_paths='r2scan.model', default_dtype='float64')
+Student = MACECalculator(model_paths='NNs/'+str(I-1)+'/'+str(I-1)+'_compiled.model', default_dtype='float32')
 
 stoi = np.random.choice(Z, N)
 gen = genCluster(Atoms(stoi, cell=[20,20,20], pbc=False))
-cluster = relaxCluster(gen, calc0, 100)
+cluster = relaxCluster(gen, Teacher, 100)
 
 box = [(0.,0.,0.), ((20.,0.,0.), (0.,20.,0.), (0.,0.,20.))]
 
@@ -123,7 +123,7 @@ except: pass
 
 names = ['H', 'H2', 'N', 'N2', 'NH3']
 mol = molecule(names[J%5])
-mol.calc = calc
+mol.calc = Student
 AE = mol.get_total_energy() #used to calculate adsE
 print('[J='+str(J)+' Start]')
 
@@ -165,7 +165,7 @@ while da.get_number_of_unrelaxed_candidates() > 0:
 
 	a = da.get_an_unrelaxed_candidate()
 	#a = fix(a)
-	a.calc = calc
+	a.calc = Student
 	e = a.get_total_energy()
 	f = a.get_forces()
 	a.info['key_value_pairs']['raw_score'] = adsE(a)
@@ -194,7 +194,7 @@ for i in tqdm(range(n2e)):
 		a, desc = mutations.get_new_individual([a])
 	#a = fix(a)
 	da.add_unrelaxed_candidate(a, description='mutation: rattle')
-	a.calc = calc
+	a.calc = Student
 	dyn = FIRE(a, trajectory=None, logfile=None)
 	dyn.run(fmax=fmin, steps=steps)
 	e = a.get_total_energy()    
