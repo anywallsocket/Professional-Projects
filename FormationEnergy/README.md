@@ -21,7 +21,7 @@ Where EPA is the energy per atom, where N is the atoms per cluster, and the sum 
 Figure 0. Bulk lattice references for our elements under consideration.
 
 <p align="center">
-  <img width="500" height="500" src="Table_1.png">
+  <img width="700" height="700" src="Table_1.png">
 </p>
 
 Table 1. Model errors relative to our own DFT reference values. MP is Materials Project values,
