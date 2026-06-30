@@ -10,6 +10,7 @@ While only 10,000 of these images are unique ($1000$ images $\times$ $10$ iterat
 
 Each iteration's neural network (NN) will infer distinct values for its images.
 
+DATA LINK: ```405 MB download via [Zenodo](https://zenodo.org/records/21075847?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjAzNDRiOWZiLTY3ZTAtNGI4MC04ZjMzLTk4ZWE2ZmU0NjBmZiIsImRhdGEiOnt9LCJyYW5kb20iOiI0MTY3YTRjODMyOWNlMzRlN2Y3ZDQ5NzU5YjhmM2ZjZiJ9.Gij8sVzS285iw_dslwBkv8WbQDrjcNjArJvFd1ubd313MdTcTQ6wAJQe8qonaYOD9bsr6WYRz0VpE8IP5U4d_A)```
 
 ```python
 import numpy as np
