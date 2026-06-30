@@ -19,7 +19,7 @@ from ase.io import read
 
 
 ```python
-all_images = read('../../TIME/JUN/TB5-10.xyz', index=':')
+all_images = read('DFT-10.xyz', index=':')
 len(all_images)
 ```
 
