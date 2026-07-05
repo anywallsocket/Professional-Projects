@@ -16,8 +16,9 @@ We want to see how $NN_i$ is doing on the new set of 1000 images.
 
 Yet for plotting parity, we want all the images it was trained on.
 
-Hence we've split the data into: ```all-images.xyz``` and ```unique-images.xyz```
+Hence we've split the data into: ```DFT-all.xyz``` and ```DFT-unique.xyz```
 
+DATALINK via [Zenodo]()
 
 ```python
 import numpy as np
@@ -27,7 +28,7 @@ from ase.io import read, write
 
 
 ```python
-unique_images = read('unique-images.xyz', index=':')
+unique_images = read('DFT-unique.xyz', index=':')
 len(unique_images)
 ```
 
@@ -712,7 +713,7 @@ For this we do not use the dataframe, but rather access the ASE atom's objects d
 
 
 ```python
-all_images = read('all-images.xyz', index=':')
+all_images = read('DFT-all.xyz', index=':')
 all_iter = [[i for i in all_images if i.info['Iteration']==it] for it in range(10)]
 [len(i) for i in all_iter]
 ```
