@@ -18,7 +18,7 @@ Yet for plotting parity, we want all the images it was trained on.
 
 Hence we've split the data into: ```DFT-all.xyz``` and ```DFT-unique.xyz```
 
-DATALINK via [Zenodo]()
+DATALINK via [Zenodo](https://zenodo.org/records/21075847?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjAzNDRiOWZiLTY3ZTAtNGI4MC04ZjMzLTk4ZWE2ZmU0NjBmZiIsImRhdGEiOnt9LCJyYW5kb20iOiI0MTY3YTRjODMyOWNlMzRlN2Y3ZDQ5NzU5YjhmM2ZjZiJ9.Gij8sVzS285iw_dslwBkv8WbQDrjcNjArJvFd1ubd313MdTcTQ6wAJQe8qonaYOD9bsr6WYRz0VpE8IP5U4d_A)
 
 ```python
 import numpy as np
