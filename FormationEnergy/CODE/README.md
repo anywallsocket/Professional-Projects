@@ -3,7 +3,7 @@
 <!-- Place figure6.png, figure7.png, and figure8.png alongside this Markdown file.
      Change the image paths below if your PNG filenames differ. -->
 
-With the fine-tuned model preforming well, we now utilize it for another broad search. This time we use a Semi-grand Monte Carlo Evolutionary Search (SG-MCES): semi-grand because the number of atoms is fixed, but the composition is not - the algorithm is free to swap any atom with those available. The algorithm and data is available in full [[2]](https://github.com/anywallsocket/Professional-Projects/edit/main/FormationEnergy/).
+With the fine-tuned model preforming well, we now utilize it for another broad search. This time we use a Semi-grand Monte Carlo Evolutionary Search (SG-MCES): semi-grand because the number of atoms is fixed, but the composition is not - the algorithm is free to swap any atom with those available. The algorithm and data is available in full [HERE]([FormationEnergy code and data](https://github.com/anywallsocket/Professional-Projects/edit/main/FormationEnergy/CODE/)
 
 The pseudo code is as such:
 
@@ -50,5 +50,3 @@ One thing to note here is that while it looks unconverged after 1000 generations
 [0] [MACE](https://github.com/ACEsuit/mace/tree/100a29149d90a5945eddec1f0940bd88a6e3b363)
 
 [1] [ASE-GA](https://dtu-energy.github.io/ase-ga/)
-
-[2] [FormationEnergy code and data](https://github.com/anywallsocket/Professional-Projects/edit/main/FormationEnergy/)
