@@ -12,7 +12,7 @@ With the fine-tuned model preforming well, we now utilize it for another broad s
 4. Al<sub>0.4727</sub>Co<sub>0.0182</sub>Mg<sub>0.1091</sub>Mn<sub>0.1091</sub>Ni<sub>0.2909</sub>
 5. Al<sub>0.3818</sub>Cu<sub>0.0545</sub>Mg<sub>0.2364</sub>Mn<sub>0.1091</sub>Ni<sub>0.2182</sub>
 
-The pseudo code is as such:
+### SG-MCES Algorithm
 
 1. Initialize a population of randomly composed clusters.
 2. Relax each cluster and score its formation energy.
