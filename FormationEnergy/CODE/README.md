@@ -17,14 +17,14 @@ The pseudo code is as such:
 1. Initialize a population of randomly composed clusters.
 2. Relax each cluster and score its formation energy.
 3. Repeat for each generation:
-   - Repeat until enough offspring are generated:
-     - Select a parent, favoring lower formation energy.
-     - Copy the parent.
-     - Choose either atomic swaps or species transmutations.
-     - Perform several trials using Metropolis acceptance.
-     - Relax the resulting child and score its formation energy.
-   - Combine parents and offspring.
-   - Retain the candidates with the lowest formation energies.
+   * Repeat until enough offspring are generated:
+        * Select a parent, favoring lower formation energy.
+        * Copy the parent.
+        * Choose either atomic swaps or species transmutations.
+     * Perform several trials using Metropolis acceptance.
+     * Relax the resulting child and score its formation energy.
+   * Combine parents and offspring.
+   * Retain the candidates with the lowest formation energies.
 4. Return the best candidate found.
 
 To run:
