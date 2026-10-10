@@ -6,11 +6,11 @@
 With the fine-tuned model preforming well, we now utilize it for another broad search. This time we use a Semi-grand Monte Carlo Evolutionary Search (SG-MCES): semi-grand because the number of atoms is fixed, but the composition is not - the algorithm is free to swap any atom with those available. The algorithm and data is available in full [HERE](https://github.com/anywallsocket/Professional-Projects/tree/main/FormationEnergy/CODE).
 
 ### Predictions for 5-element clusters (ranked by $E_{form}$):
-1. Al<sub>0.4182</sub>Cu<sub>0.0364</sub>Mg<sub>0.0727</sub>Mn<sub>0.1273</sub>Ni<sub>0.3455</sub>
-2. Al<sub>0.3636</sub>Cu<sub>0.0364</sub>Mg<sub>0.1455</sub>Mn<sub>0.1091</sub>Ni<sub>0.3455</sub>
-3. Al<sub>0.4364</sub>Cu<sub>0.0909</sub>Mg<sub>0.1455</sub>Mn<sub>0.0545</sub>Ni<sub>0.2727</sub>
-4. Al<sub>0.4727</sub>Co<sub>0.0182</sub>Mg<sub>0.1091</sub>Mn<sub>0.1091</sub>Ni<sub>0.2909</sub>
-5. Al<sub>0.3818</sub>Cu<sub>0.0545</sub>Mg<sub>0.2364</sub>Mn<sub>0.1091</sub>Ni<sub>0.2182</sub>
+1. Al<sub>0.42</sub>Cu<sub>0.04</sub>Mg<sub>0.07</sub>Mn<sub>0.13</sub>Ni<sub>0.35</sub>
+2. Al<sub>0.36</sub>Cu<sub>0.04</sub>Mg<sub>0.15</sub>Mn<sub>0.11</sub>Ni<sub>0.35</sub>
+3. Al<sub>0.44</sub>Cu<sub>0.09</sub>Mg<sub>0.15</sub>Mn<sub>0.05</sub>Ni<sub>0.27</sub>
+4. Al<sub>0.47</sub>Co<sub>0.02</sub>Mg<sub>0.11</sub>Mn<sub>0.11</sub>Ni<sub>0.29</sub>
+5. Al<sub>0.38</sub>Cu<sub>0.05</sub>Mg<sub>0.24</sub>Mn<sub>0.11</sub>Ni<sub>0.22</sub>
 
 ### SG-MCES Algorithm
 
