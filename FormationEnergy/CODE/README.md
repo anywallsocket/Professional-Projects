@@ -5,13 +5,12 @@
 
 With the fine-tuned model preforming well, we now utilize it for another broad search. This time we use a Semi-grand Monte Carlo Evolutionary Search (SG-MCES): semi-grand because the number of atoms is fixed, but the composition is not - the algorithm is free to swap any atom with those available. The algorithm and data is available in full [HERE](https://github.com/anywallsocket/Professional-Projects/tree/main/FormationEnergy/CODE).
 
-### Predictions for 5-element clusters:
-
-1. $\mathrm{Al}_{0.4182}\mathrm{Cu}_{0.0364}\mathrm{Mg}_{0.0727}\mathrm{Mn}_{0.1273}\mathrm{Ni}_{0.3455}$
-2. $\mathrm{Al}_{0.3636}\mathrm{Cu}_{0.0364}\mathrm{Mg}_{0.1455}\mathrm{Mn}_{0.1091}\mathrm{Ni}_{0.3455}$
-3. $\mathrm{Al}_{0.4364}\mathrm{Cu}_{0.0909}\mathrm{Mg}_{0.1455}\mathrm{Mn}_{0.0545}\mathrm{Ni}_{0.2727}$
-4. $\mathrm{Al}_{0.4727}\mathrm{Co}_{0.0182}\mathrm{Mg}_{0.1091}\mathrm{Mn}_{0.1091}\mathrm{Ni}_{0.2909}$
-5. $\mathrm{Al}_{0.3818}\mathrm{Cu}_{0.0545}\mathrm{Mg}_{0.2364}\mathrm{Mn}_{0.1091}\mathrm{Ni}_{0.2182}$
+### Predictions for 5-element clusters (ranked by $E_{form}$):
+1. Al<sub>0.4182</sub>Cu<sub>0.0364</sub>Mg<sub>0.0727</sub>Mn<sub>0.1273</sub>Ni<sub>0.3455</sub>
+2. Al<sub>0.3636</sub>Cu<sub>0.0364</sub>Mg<sub>0.1455</sub>Mn<sub>0.1091</sub>Ni<sub>0.3455</sub>
+3. Al<sub>0.4364</sub>Cu<sub>0.0909</sub>Mg<sub>0.1455</sub>Mn<sub>0.0545</sub>Ni<sub>0.2727</sub>
+4. Al<sub>0.4727</sub>Co<sub>0.0182</sub>Mg<sub>0.1091</sub>Mn<sub>0.1091</sub>Ni<sub>0.2909</sub>
+5. Al<sub>0.3818</sub>Cu<sub>0.0545</sub>Mg<sub>0.2364</sub>Mn<sub>0.1091</sub>Ni<sub>0.2182</sub>
 
 The pseudo code is as such:
 
