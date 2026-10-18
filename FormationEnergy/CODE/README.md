@@ -52,6 +52,11 @@ Finally we look at the SG-MCES convergence.
 
 One thing to note here is that while it looks unconverged after 1000 generations, the x-scale is logarithmic, such that we may more closely examine long-term behavior. Those with the available compute should run SG-MCES until the step $E_{\mathrm{form}}(\mathrm{step})$ curve flattens.
 
+![Figure 9](figure9.png)
+![Figure 10](figure10.png)
+
+**Figure 9,10.** Additional plots elemental dominance and radial distributions for top structures. (see MatplotLib's box and wisker plot for defaults) 
+
 ## References
 
 [0] [MACE](https://github.com/ACEsuit/mace/tree/100a29149d90a5945eddec1f0940bd88a6e3b363)
